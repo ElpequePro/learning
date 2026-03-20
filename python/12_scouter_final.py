@@ -80,3 +80,5 @@ if st.button("Analizar Perfil"):
             st.error(f"Error al leer el perfil: {e}")
     else:
         st.warning("Por favor, introduce una URL válida.")
+
+# Entra a `python` y ejecutar `streamlit run 11_app_scouting.py`

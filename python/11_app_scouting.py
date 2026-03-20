@@ -52,3 +52,5 @@ if st.button("Ejecutar Análisis"):
         st.success("El jugador es una estrella")
     else:
         st.info("El jugador es uno del montón")
+
+# Entra a `python` y ejecutar `streamlit run 11_app_scouting.py`

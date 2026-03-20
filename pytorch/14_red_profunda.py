@@ -57,7 +57,7 @@ for i in range(2001):
 
     if i % 200 == 0:
         # Pista: usa loss.item() para imprimir el error
-        print(f"Época {i}: Error = {round(loss.item(),2)}")
+        print(f"Época {i}: Error = {round(loss.item(), 2)}")
 
 # 5. TEST FINAL
 # TU RETO: Predice el valor de un jugador de 25 años con 12 goles.
@@ -65,4 +65,4 @@ test_jugador = torch.tensor([[25.0, 12.0]])
 # Pista: pasa el test_jugador por el modelo
 resultado = modelo(test_jugador)
 print(f"---")
-print(f"Valor estimado para el jugador: {resultado.item()} M€")
+print(f"Valor estimado para el jugador: {round(resultado.item(), 2)} M€")

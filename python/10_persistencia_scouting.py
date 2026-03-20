@@ -24,3 +24,5 @@ except Exception:
 modelo_cargado = joblib.load("10_modelo_scouting.pkl")
 jugador = modelo_cargado.predict(np.array([[15, 10]]))[0]
 print(f"El jugador es del grupo {jugador}")
+
+# Entra a `python` y ejecutar el _script_
